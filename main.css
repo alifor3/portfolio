@@ -7,7 +7,7 @@
 
 html {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Garamond', sans-serif;
   color: #eee;
 }
 
@@ -34,7 +34,6 @@ p {
 
 img {
   width: 100%;
-  border-radius: 25px;
 }
 /*End global*/
 
@@ -53,8 +52,8 @@ img {
 }
 
 .section-heading h1 {
-  font-size: 3.5rem;
-  color: rgba(255, 255, 255, 0.3);
+  font-size: 4.5rem;
+  color: rgba(255, 255, 255, 0.733);
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -85,7 +84,7 @@ img {
 }
 
 .section-heading h6 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 
@@ -206,7 +205,7 @@ li {
 .landing-text h1 {
   font-size: 20rem;
   font-family: 'Permanent Marker';
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #e9e8e6, #64719e);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -249,6 +248,11 @@ li {
   margin-right: 5rem;
 }
 
+.shape-profile-img {
+  width: 75%;
+  border-radius: 50px;
+}
+
 .about-details {
   flex: 1;
 }
@@ -271,7 +275,7 @@ li {
 }
 
 .fa-github-square:hover {
-  color: gray;
+  color: #4267b2;
 }
 /*End about*/
 
@@ -338,13 +342,13 @@ li {
 }
 
 .portfolio-description h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300;
   margin: 1rem 0;
 }
 
 .portfolio-description h6 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 300;
   opacity: 0.3;
