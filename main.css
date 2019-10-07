@@ -250,6 +250,8 @@ li {
 
 .circle-img {
   border-radius: 50%;
+  height: 80%;
+  width: 80%;
 }
 
 .shape-profile-img {
